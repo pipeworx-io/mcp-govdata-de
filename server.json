@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/govdata-de",
+  "title": "Govdata De",
+  "description": "GovData.de MCP — Germany's national open-data portal (CKAN API).",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/govdata-de",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-govdata-de",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/govdata-de/mcp"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-govdata-de",
+  "version": "0.1.0",
+  "description": "GovData.de MCP — Germany's national open-data portal (CKAN API).",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "govdata-de"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-govdata-de"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
